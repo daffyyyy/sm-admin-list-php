@@ -19,7 +19,7 @@ ob_start();
 $admins = [];
 
 // Open FTP connection
-$admins_file = fopen(sprintf('ftp://%s:%s@%s/%s', $config['FTP']['MIRAGE']['username'], $config['FTP']['MIRAGE']['password'], $config['FTP']['MIRAGE']['host'], $config['FTP']['MIRAGE']['path']), 'r');
+$admins_file = fopen(sprintf('ftp://%s:%s@%s/%s', $config['FTP'][$server]['username'], $config['FTP'][$server]['password'], $config['FTP'][$server]['host'], $config['FTP'][$server]['path']), 'r');
 
 // Iterate stream
 while (!feof($admins_file)) {
