@@ -1,0 +1,11 @@
+body{
+    background: #131313 url(img/texture.png);
+}
+
+  @media (min-width: 992px) {
+    section {
+      height: 100vh;
+      min-height: 40rem;
+      padding-bottom: 0;
+    }
+  }
