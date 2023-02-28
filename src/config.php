@@ -8,7 +8,7 @@ if (!function_exists('str_starts_with')) {
 }
 
 return [
-    'STEAM_API_KEY' => "XXXXXXXXXXXXXXX", // Generate on https://steamcommunity.com/dev/apikey
+    'STEAM_API_KEY' => "XXXXXXXXXXXXX", // Generate on https://steamcommunity.com/dev/apikey
     'LOGO_PATH' => "img/logo.webp",
     'FTP' => [
 
