@@ -15,7 +15,7 @@
 
 ### Configuration
 <details>
-<summary><b>config.php</b></summary>
+<summary><b>src/config.php</b></summary>
 
 ```php
     'STEAM_API_KEY' => "XXXXXXXXXXXXXXX", // Generate on https://steamcommunity.com/dev/apikey
