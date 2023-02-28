@@ -18,6 +18,12 @@ return [
             'password' => "pass", // FTP Password
             'path' => "/csgo/addons/sourcemod/configs/admins_simple.ini", // FTP Path
         ],
+        'Server2' => [ // ServerName
+            'host' => "127.0.0.1", // FTP Host
+            'username' => "user", // FTP User
+            'password' => "pass", // FTP Password
+            'path' => "/csgo/addons/sourcemod/configs/admins_simple.ini", // FTP Path
+        ],
         
     ],
     'ADMIN_FLAG' => ["d", "@Admin", "@Opiekun", "@Wlasciciel"], // Admin flags and groups
