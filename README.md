@@ -9,6 +9,9 @@
 
 ---
 
+# discontinued
+> Counter-Strike Global-Offensive changed to Counter-Strike 2, sourcemod which project used is unusuable on source2 engine.
+
 ### Description
 - The script displays the admins from the admins_simple.ini file
 - Multiple servers can be added
